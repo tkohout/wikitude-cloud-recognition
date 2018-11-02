@@ -46,7 +46,7 @@ var World = {
     },
 
     createOverlays: function createOverlaysFn() {
-        
+
     },
 
     /*
@@ -77,6 +77,7 @@ var World = {
 
     trackerLoaded: function trackerLoadedFn() {
         World.startContinuousRecognition(750);
+        AR.platform.sendJSONObject({"Hello": "World"})
         document.getElementById("loadingMessage").style.display = "none";
     },
     onError: function onErrorFn(error) {
