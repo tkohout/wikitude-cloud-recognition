@@ -78,7 +78,7 @@ var World = {
     trackerLoaded: function trackerLoadedFn() {
         World.startContinuousRecognition(750);
         //Testing Code for Wikitude
-        //AR.platform.sendJSONObject({"Hello": "World"})
+        AR.platform.sendJSONObject({QRcode: '1234567b'})
         document.getElementById("loadingMessage").style.display = "none";
     },
     onError: function onErrorFn(error) {
