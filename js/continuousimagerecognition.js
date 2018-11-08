@@ -19,8 +19,8 @@ var World = {
     */
     createTracker: function createTrackerFn() {
         this.cloudRecognitionService = new AR.CloudRecognitionService(
-            "ed071bd0345f5f75d7630eda3f586d8e",
-            "5bd89522ec78b55a4ddf5b0e",
+            "a8e9744d743da6cae55dc2c0f3cd2017",
+            "5be44bf3cb07a90d83601d98",
             {
                 onInitialized: World.trackerLoaded,
                 onError: World.onError
