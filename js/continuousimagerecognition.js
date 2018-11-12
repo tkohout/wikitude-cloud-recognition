@@ -76,8 +76,9 @@ var World = {
     },
 
     trackerLoaded: function trackerLoadedFn() {
-        World.startContinuousRecognition(750);
+        World.startContinuousRecognition(1500);
         //Testing Code for Wikitude
+        //Mock QRcode for just simulator
         //AR.platform.sendJSONObject({QRcode: '1234567b'})
         document.getElementById("loadingMessage").style.display = "none";
     },
